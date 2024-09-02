@@ -1,0 +1,119 @@
+.masters {
+  width: 1342px;
+  margin: 30px auto 30px auto;
+  padding: 48px 0;
+  border-radius: 30px;
+  background-color: #f3f2ee;
+
+  .heading-two {
+    margin-bottom: 48px;
+    font-family: $third-family;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    text-align: center;
+    color: #202020;
+    text-transform: uppercase;
+  }
+
+  .masters-list {
+    display: flex;
+    column-gap: 20px;
+
+    font-family: $font-family;
+
+    .master-item {
+      flex-basis: calc((100% - 40px) / 3);
+
+      .master-position {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #8e8e8e;
+      }
+
+      .master-name {
+        margin-top: 12px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #202020;
+      }
+
+      .master-description {
+        margin-top: 16px;
+        font-weight: 300;
+        font-size: 16px;
+        color: #202020;
+      }
+
+      &.vacancy {
+        // width: 400px;
+        height: 655px;
+        background-color: #4f4f4f;
+        border-radius: 20px;
+        padding: 220px 62px;
+
+        .vacancy-title {
+          margin-bottom: 16px;
+          font-family: $font-family;
+          font-weight: 400;
+          font-size: 24px;
+          text-align: center;
+          color: #f3f2ee;
+        }
+
+        .vacancy-text {
+          margin-bottom: 48px;
+          font-family: $font-family;
+          font-weight: 300;
+          font-size: 16px;
+          text-align: center;
+          color: #f3f2ee;
+        }
+
+        .vacancy-btn {
+          display: block;
+          border: 3px solid #f48f32;
+          border-radius: 20px;
+          padding: 16px 20px;
+          width: 276px;
+          height: 62px;
+
+          font-family: $font-family;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 1.2;
+          color: #f48f32;
+        }
+      }
+
+      .communication-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+
+        .socials-list {
+          display: flex;
+          align-items: center;
+          column-gap: 8px;
+        }
+      }
+
+      .master-btn {
+        display: block;
+        border-radius: 20px;
+        padding: 16px 20px;
+        width: 242px;
+        height: 62px;
+        background: #f48f32;
+
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 22px;
+        color: #fff;
+        text-align: center;
+        line-height: 1.2;
+      }
+    }
+  }
+}

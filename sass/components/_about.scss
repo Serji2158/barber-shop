@@ -1,0 +1,39 @@
+.about {
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  width: 1342px;
+
+
+  background: #050505;
+
+  background-image: url('../../images/about.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
+  .about-position {
+    display: flex;
+
+    .about-content {
+      width: 50%;
+      padding: 100px 110px 100px 104px;
+
+      .heading {
+        font-family: $third-family;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 1.1;
+        color: #f48f32;
+        text-transform: uppercase;
+      }
+
+      .about-text {
+        margin-top: 48px;
+
+        font-size: 16px;
+      }
+    }
+  }
+}
